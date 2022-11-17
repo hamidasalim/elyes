@@ -1,0 +1,7 @@
+small{
+    color: red;
+    display: none;
+}
+input:invalid[focused="true"] ~ small{
+    display: block;
+}
